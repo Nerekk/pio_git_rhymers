@@ -7,9 +7,7 @@ public class DefaultCountingOutRhymer {
     private final int EMPTY_RHYMER_INDICATOR = -1;
     private final int[] numbers = new int[MAX_NUMBERS];
 
-    public int getTotal() {
-        return total;
-    }
+
 
     private int total = ERROR_NUMBER;
 
