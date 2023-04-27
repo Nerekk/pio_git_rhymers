@@ -6,6 +6,11 @@ public class DefaultCountingOutRhymer {
     private final int ERROR_NUMBER = -1;
     private final int EMPTY_RHYMER_INDICATOR = -1;
     private final int[] numbers = new int[MAX_NUMBERS];
+
+    public int getTotal() {
+        return total;
+    }
+
     private int total = ERROR_NUMBER;
 
     public void countIn(int in) {
