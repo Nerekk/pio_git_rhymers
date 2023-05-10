@@ -1,10 +1,9 @@
 package edu.kis.vh.nursery.list;
 
+/**
+ * Creates linked list that stores nodes with int values
+ */
 public class IntLinkedList {
-    /**
-     * Creates linked list that stores nodes with int values
-     */
-
     private final int ERROR_NUMBER = -1;
     private Node last;
     int i;
